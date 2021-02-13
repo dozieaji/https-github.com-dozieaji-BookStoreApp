@@ -1,0 +1,6 @@
+com\devd\spring\bookstoreapigatewayservice\filters\RouteFilter.class
+com\devd\spring\bookstoreapigatewayservice\filters\PostFilter.class
+com\devd\spring\bookstoreapigatewayservice\config\AddTraceIdToHttpResponseConfig.class
+com\devd\spring\bookstoreapigatewayservice\BookstoreApiGatewayServiceApplication.class
+com\devd\spring\bookstoreapigatewayservice\filters\PreFilter.class
+com\devd\spring\bookstoreapigatewayservice\config\ApiGatewayConfig.class

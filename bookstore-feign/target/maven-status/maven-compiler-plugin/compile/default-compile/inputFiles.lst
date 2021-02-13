@@ -1,0 +1,8 @@
+C:\PROJECTS\BookStoreApp-Distributed-Application\bookstore-feign\src\main\java\com\devd\spring\bookstorecommons\web\GetProductResponse.java
+C:\PROJECTS\BookStoreApp-Distributed-Application\bookstore-feign\src\main\java\com\devd\spring\bookstorecommons\config\FeignConfig.java
+C:\PROJECTS\BookStoreApp-Distributed-Application\bookstore-feign\src\main\java\com\devd\spring\bookstorecommons\feign\OrderFeignClient.java
+C:\PROJECTS\BookStoreApp-Distributed-Application\bookstore-feign\src\main\java\com\devd\spring\bookstorecommons\feign\AccountFeignClient.java
+C:\PROJECTS\BookStoreApp-Distributed-Application\bookstore-feign\src\main\java\com\devd\spring\bookstorecommons\feign\BillingFeignClient.java
+C:\PROJECTS\BookStoreApp-Distributed-Application\bookstore-feign\src\main\java\com\devd\spring\bookstorecommons\web\GetUserResponse.java
+C:\PROJECTS\BookStoreApp-Distributed-Application\bookstore-feign\src\main\java\com\devd\spring\bookstorecommons\feign\CatalogFeignClient.java
+C:\PROJECTS\BookStoreApp-Distributed-Application\bookstore-feign\src\main\java\com\devd\spring\bookstorecommons\web\DateAudit.java

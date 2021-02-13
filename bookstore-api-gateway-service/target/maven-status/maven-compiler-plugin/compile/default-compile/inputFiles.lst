@@ -1,0 +1,6 @@
+C:\PROJECTS\BookStoreApp-Distributed-Application\bookstore-api-gateway-service\src\main\java\com\devd\spring\bookstoreapigatewayservice\config\AddTraceIdToHttpResponseConfig.java
+C:\PROJECTS\BookStoreApp-Distributed-Application\bookstore-api-gateway-service\src\main\java\com\devd\spring\bookstoreapigatewayservice\filters\PreFilter.java
+C:\PROJECTS\BookStoreApp-Distributed-Application\bookstore-api-gateway-service\src\main\java\com\devd\spring\bookstoreapigatewayservice\config\ApiGatewayConfig.java
+C:\PROJECTS\BookStoreApp-Distributed-Application\bookstore-api-gateway-service\src\main\java\com\devd\spring\bookstoreapigatewayservice\BookstoreApiGatewayServiceApplication.java
+C:\PROJECTS\BookStoreApp-Distributed-Application\bookstore-api-gateway-service\src\main\java\com\devd\spring\bookstoreapigatewayservice\filters\PostFilter.java
+C:\PROJECTS\BookStoreApp-Distributed-Application\bookstore-api-gateway-service\src\main\java\com\devd\spring\bookstoreapigatewayservice\filters\RouteFilter.java

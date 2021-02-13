@@ -1,0 +1,9 @@
+com\devd\spring\bookstorecommons\feign\OrderFeignClient.class
+com\devd\spring\bookstorecommons\feign\CatalogFeignClient.class
+com\devd\spring\bookstorecommons\feign\BillingFeignClient.class
+com\devd\spring\bookstorecommons\config\FeignConfig.class
+com\devd\spring\bookstorecommons\web\GetProductResponse.class
+com\devd\spring\bookstorecommons\web\GetUserResponse.class
+com\devd\spring\bookstorecommons\web\DateAudit.class
+com\devd\spring\bookstorecommons\feign\AccountFeignClient.class
+com\devd\spring\bookstorecommons\web\GetProductResponse$GetProductResponseBuilder.class

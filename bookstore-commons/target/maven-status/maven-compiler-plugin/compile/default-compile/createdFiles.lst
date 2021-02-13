@@ -1,0 +1,4 @@
+com\devd\spring\bookstorecommons\config\AuditingConfig.class
+com\devd\spring\bookstorecommons\security\GlobalResourceServerConfig.class
+com\devd\spring\bookstorecommons\config\SpringSecurityAuditAwareImpl.class
+com\devd\spring\bookstorecommons\security\GlobalSecurityConfig.class

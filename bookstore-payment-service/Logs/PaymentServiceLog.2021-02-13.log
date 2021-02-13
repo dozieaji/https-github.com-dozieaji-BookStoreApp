@@ -1,0 +1,476 @@
+[2021-02-13 00:46:43 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69074486] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 00:46:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstorepaymentservice.BookstorePaymentServiceApplication : The following profiles are active: local
+[2021-02-13 00:46:53 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+[2021-02-13 00:46:54 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 520ms. Found 1 repository interfaces.
+[2021-02-13 00:46:55 WAT] WARN [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[2021-02-13 00:46:59 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.context.scope.GenericScope : BeanFactory id=a245e01c-af38-3fae-8f06-0042ac45bf64
+[2021-02-13 00:46:59 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2021-02-13 00:46:59 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2021-02-13 00:46:59 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2021-02-13 00:47:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ced4189] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 00:47:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e59b09c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 00:47:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 00:47:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5e375ba5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 00:47:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$a6fac75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 00:47:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 00:47:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$b7defcb8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 00:47:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$937107d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 00:47:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$cc58b0a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 00:47:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 00:47:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 00:47:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69074486] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 00:47:10 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8001 (http)
+[2021-02-13 00:47:10 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8001"]
+[2021-02-13 00:47:10 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardService : Starting service [Tomcat]
+[2021-02-13 00:47:10 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2021-02-13 00:47:11 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-02-13 00:47:11 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 26177 ms
+[2021-02-13 00:47:13 WAT] WARN [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2021-02-13 00:47:13 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2021-02-13 00:47:13 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6c84399c
+[2021-02-13 00:47:24 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.license.VersionPrinter : Flyway Community Edition 5.2.4 by Boxfuse
+[2021-02-13 00:47:24 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+[2021-02-13 00:47:25 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+[2021-02-13 00:47:25 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.database.DatabaseFactory : Database: jdbc:h2:mem:bookstore_db (H2 1.4)
+[2021-02-13 00:47:25 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbValidate : Successfully validated 1 migration (execution time 00:00.092s)
+[2021-02-13 00:47:25 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory : Creating Schema History table: "PUBLIC"."payment_service_flyway_history"
+[2021-02-13 00:47:26 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Current version of schema "PUBLIC": << Empty Schema >>
+[2021-02-13 00:47:26 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 1 - payment-service-schema
+[2021-02-13 00:47:26 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Successfully applied 1 migration to schema "PUBLIC" (execution time 00:00.208s)
+[2021-02-13 00:47:26 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2021-02-13 00:47:27 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.Version : HHH000412: Hibernate Core {5.3.9.Final}
+[2021-02-13 00:47:27 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+[2021-02-13 00:47:27 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2021-02-13 00:47:28 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2021-02-13 00:47:32 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-02-13 00:47:39 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 22 endpoint(s) beneath base path '/actuator'
+[2021-02-13 00:47:40 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2021-02-13 00:47:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/v2/api-docs'], []
+[2021-02-13 00:47:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/configuration/ui'], []
+[2021-02-13 00:47:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+[2021-02-13 00:47:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/configuration/**'], []
+[2021-02-13 00:47:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+[2021-02-13 00:47:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/webjars/**'], []
+[2021-02-13 00:47:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a634774, org.springframework.security.web.context.SecurityContextPersistenceFilter@22b7bf89, org.springframework.security.web.header.HeaderWriterFilter@6d7863e, org.springframework.security.web.authentication.logout.LogoutFilter@13bb3bf9, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@435109ab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65a1cd36, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b7cead9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12a64793, org.springframework.security.web.session.SessionManagementFilter@156a85cc, org.springframework.security.web.access.ExceptionTranslationFilter@1811fde7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@317141]
+[2021-02-13 00:47:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2609032e, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f663e05, org.springframework.security.web.header.HeaderWriterFilter@769111fa, org.springframework.security.web.authentication.logout.LogoutFilter@52c7f41d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3a421d1b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42498317, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ca95465, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7fa0dddc, org.springframework.security.web.session.SessionManagementFilter@101fcb1a, org.springframework.security.web.access.ExceptionTranslationFilter@6f925816]
+[2021-02-13 00:47:45 WAT] WARN [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2021-02-13 00:47:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2021-02-13 00:47:46 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-02-13 00:47:54 WAT] WARN [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.core.CoreAutoConfiguration : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+[2021-02-13 00:47:54 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-02-13 00:47:55 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.monitor.IntegrationMBeanExporter : Registering MessageChannel errorChannel
+[2021-02-13 00:47:56 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.monitor.IntegrationMBeanExporter : Registering MessageChannel nullChannel
+[2021-02-13 00:47:56 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.monitor.IntegrationMBeanExporter : Registering MessageHandler errorLogger
+[2021-02-13 00:47:56 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.endpoint.EventDrivenConsumer : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2021-02-13 00:47:56 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.channel.PublishSubscribeChannel : Channel 'bookstore-payment-service-1.errorChannel' has 1 subscriber(s).
+[2021-02-13 00:47:56 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.endpoint.EventDrivenConsumer : started _org.springframework.integration.errorLogger
+[2021-02-13 00:47:56 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+[2021-02-13 00:47:56 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+[2021-02-13 00:47:58 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+[2021-02-13 00:47:58 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+[2021-02-13 00:47:59 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+[2021-02-13 00:47:59 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+[2021-02-13 00:48:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2021-02-13 00:48:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Disable delta property : false
+[2021-02-13 00:48:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+[2021-02-13 00:48:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+[2021-02-13 00:48:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Application is null : false
+[2021-02-13 00:48:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+[2021-02-13 00:48:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Application version is -1: true
+[2021-02-13 00:48:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+[2021-02-13 00:48:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : The response status is 200
+[2021-02-13 00:48:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+[2021-02-13 00:48:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+[2021-02-13 00:48:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1613173682911 with initial instances count: 4
+[2021-02-13 00:48:03 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application BOOKSTORE-PAYMENT-SERVICE with eureka with status UP
+[2021-02-13 00:48:03 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1613173683241, current=UP, previous=STARTING]
+[2021-02-13 00:48:03 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+[2021-02-13 00:48:03 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-InstanceInfoReplicator-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_BOOKSTORE-PAYMENT-SERVICE/192.168.253.160:bookstore-payment-service:8001: registering service...
+[2021-02-13 00:48:03 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-InstanceInfoReplicator-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_BOOKSTORE-PAYMENT-SERVICE/192.168.253.160:bookstore-payment-service:8001 - registration status: 204
+[2021-02-13 00:48:03 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2021-02-13 00:48:03 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+[2021-02-13 00:48:04 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8001"]
+[2021-02-13 00:48:04 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8001 (http) with context path ''
+[2021-02-13 00:48:04 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8001
+[2021-02-13 00:48:04 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstorepaymentservice.BookstorePaymentServiceApplication : Started BookstorePaymentServiceApplication in 88.078 seconds (JVM running for 153.808)
+[2021-02-13 00:53:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2021-02-13 00:58:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2021-02-13 01:03:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2021-02-13 01:08:02 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2021-02-13 01:15:10 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2976ca1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:15:11 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstorepaymentservice.BookstorePaymentAddressServiceImplApplicationTests : The following profiles are active: local
+[2021-02-13 01:15:17 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+[2021-02-13 01:15:17 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 302ms. Found 1 repository interfaces.
+[2021-02-13 01:15:18 WAT] WARN [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[2021-02-13 01:15:20 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.context.scope.GenericScope : BeanFactory id=566b1be3-acc6-34c6-a47d-64186bff44e2
+[2021-02-13 01:15:21 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2021-02-13 01:15:21 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2021-02-13 01:15:21 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2021-02-13 01:15:22 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d5cc721] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:15:23 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$a60a8f5b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:15:23 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:15:23 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1ad1be5d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:15:23 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$cadf320d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:15:23 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:15:23 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$784e8250] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:15:23 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:15:24 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2976ca1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:15:25 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.license.VersionPrinter : Flyway Community Edition 5.2.4 by Boxfuse
+[2021-02-13 01:15:25 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+[2021-02-13 01:15:26 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+[2021-02-13 01:15:26 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.database.DatabaseFactory : Database: jdbc:h2:mem:bookstore_db (H2 1.4)
+[2021-02-13 01:15:27 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbValidate : Successfully validated 1 migration (execution time 00:00.145s)
+[2021-02-13 01:15:27 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory : Creating Schema History table: "PUBLIC"."payment_service_flyway_history"
+[2021-02-13 01:15:27 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Current version of schema "PUBLIC": << Empty Schema >>
+[2021-02-13 01:15:27 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 1 - payment-service-schema
+[2021-02-13 01:15:27 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Successfully applied 1 migration to schema "PUBLIC" (execution time 00:00.234s)
+[2021-02-13 01:15:28 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2021-02-13 01:15:28 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.Version : HHH000412: Hibernate Core {5.3.9.Final}
+[2021-02-13 01:15:28 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+[2021-02-13 01:15:29 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2021-02-13 01:15:30 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2021-02-13 01:15:33 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-02-13 01:15:36 WAT] WARN [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2021-02-13 01:15:36 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2021-02-13 01:15:36 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@44a7661d
+[2021-02-13 01:15:43 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 22 endpoint(s) beneath base path '/actuator'
+[2021-02-13 01:15:44 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2021-02-13 01:15:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/v2/api-docs'], []
+[2021-02-13 01:15:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/configuration/ui'], []
+[2021-02-13 01:15:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+[2021-02-13 01:15:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/configuration/**'], []
+[2021-02-13 01:15:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+[2021-02-13 01:15:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/webjars/**'], []
+[2021-02-13 01:15:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56d189d0, org.springframework.security.web.context.SecurityContextPersistenceFilter@6def1699, org.springframework.security.web.header.HeaderWriterFilter@70720b78, org.springframework.security.web.authentication.logout.LogoutFilter@2c3df478, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@78b888df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@282c0891, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c65740a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14941b06, org.springframework.security.web.session.SessionManagementFilter@6f55aef7, org.springframework.security.web.access.ExceptionTranslationFilter@77d03738, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25d5327]
+[2021-02-13 01:15:45 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4beec7a1, org.springframework.security.web.context.SecurityContextPersistenceFilter@14997cb9, org.springframework.security.web.header.HeaderWriterFilter@4c219c84, org.springframework.security.web.authentication.logout.LogoutFilter@3397c8c0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@51bba775, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@701153c1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@301434fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71cdde0c, org.springframework.security.web.session.SessionManagementFilter@2b01be54, org.springframework.security.web.access.ExceptionTranslationFilter@4ce5013a]
+[2021-02-13 01:15:46 WAT] WARN [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2021-02-13 01:15:46 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2021-02-13 01:15:48 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-02-13 01:15:56 WAT] WARN [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.core.CoreAutoConfiguration : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+[2021-02-13 01:15:57 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-02-13 01:15:57 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.endpoint.EventDrivenConsumer : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2021-02-13 01:15:57 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.channel.PublishSubscribeChannel : Channel 'bookstore-payment-service-1.errorChannel' has 1 subscriber(s).
+[2021-02-13 01:15:57 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.endpoint.EventDrivenConsumer : started _org.springframework.integration.errorLogger
+[2021-02-13 01:15:58 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+[2021-02-13 01:15:58 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2021-02-13 01:15:58 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+[2021-02-13 01:15:59 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstorepaymentservice.BookstorePaymentAddressServiceImplApplicationTests : Started BookstorePaymentAddressServiceImplApplicationTests in 53.146 seconds (JVM running for 55.28)
+[2021-02-13 01:16:00 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+[2021-02-13 01:16:00 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Unregistering application BOOKSTORE-PAYMENT-SERVICE with eureka with status DOWN
+[2021-02-13 01:16:00 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.integration.endpoint.EventDrivenConsumer : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2021-02-13 01:16:00 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.integration.channel.PublishSubscribeChannel : Channel 'bookstore-payment-service-1.errorChannel' has 0 subscriber(s).
+[2021-02-13 01:16:00 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.integration.endpoint.EventDrivenConsumer : stopped _org.springframework.integration.errorLogger
+[2021-02-13 01:16:00 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-02-13 01:16:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-02-13 01:16:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-02-13 01:16:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+[2021-02-13 01:16:01 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+[2021-02-13 01:23:12 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f67277ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:23:13 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstorepaymentservice.BookstorePaymentAddressServiceImplApplicationTests : The following profiles are active: local
+[2021-02-13 01:23:17 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+[2021-02-13 01:23:18 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 429ms. Found 1 repository interfaces.
+[2021-02-13 01:23:18 WAT] WARN [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[2021-02-13 01:23:19 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.context.scope.GenericScope : BeanFactory id=566b1be3-acc6-34c6-a47d-64186bff44e2
+[2021-02-13 01:23:20 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2021-02-13 01:23:20 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2021-02-13 01:23:20 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2021-02-13 01:23:21 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da5874f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:23:22 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$73063d2a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:23:22 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:23:22 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1ad1be5d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:23:22 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$97dadfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:23:22 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:23:22 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$454a301f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:23:22 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:23:22 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f67277ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-02-13 01:23:24 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.license.VersionPrinter : Flyway Community Edition 5.2.4 by Boxfuse
+[2021-02-13 01:23:25 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+[2021-02-13 01:23:25 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+[2021-02-13 01:23:25 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.database.DatabaseFactory : Database: jdbc:h2:mem:bookstore_db (H2 1.4)
+[2021-02-13 01:23:26 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbValidate : Successfully validated 1 migration (execution time 00:00.114s)
+[2021-02-13 01:23:26 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory : Creating Schema History table: "PUBLIC"."payment_service_flyway_history"
+[2021-02-13 01:23:26 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Current version of schema "PUBLIC": << Empty Schema >>
+[2021-02-13 01:23:26 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 1 - payment-service-schema
+[2021-02-13 01:23:26 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Successfully applied 1 migration to schema "PUBLIC" (execution time 00:00.190s)
+[2021-02-13 01:23:27 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2021-02-13 01:23:27 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.Version : HHH000412: Hibernate Core {5.3.9.Final}
+[2021-02-13 01:23:27 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+[2021-02-13 01:23:28 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2021-02-13 01:23:29 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2021-02-13 01:23:32 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-02-13 01:23:36 WAT] WARN [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2021-02-13 01:23:36 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2021-02-13 01:23:36 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5e1bfe66
+[2021-02-13 01:23:44 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 22 endpoint(s) beneath base path '/actuator'
+[2021-02-13 01:23:46 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2021-02-13 01:23:47 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/v2/api-docs'], []
+[2021-02-13 01:23:47 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/configuration/ui'], []
+[2021-02-13 01:23:47 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+[2021-02-13 01:23:47 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/configuration/**'], []
+[2021-02-13 01:23:47 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+[2021-02-13 01:23:47 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/webjars/**'], []
+[2021-02-13 01:23:47 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a3f1703, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d9295e2, org.springframework.security.web.header.HeaderWriterFilter@5f59b6c5, org.springframework.security.web.authentication.logout.LogoutFilter@797dd7ef, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@7bfd8f92, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b8e6981, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13e12ab6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25d6ae3, org.springframework.security.web.session.SessionManagementFilter@6f5d292c, org.springframework.security.web.access.ExceptionTranslationFilter@3f33c5e4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b4a3114]
+[2021-02-13 01:23:47 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9751c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ce5013a, org.springframework.security.web.header.HeaderWriterFilter@56a63c28, org.springframework.security.web.authentication.logout.LogoutFilter@301434fb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@63019596, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c219c84, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b01be54, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c1bcea1, org.springframework.security.web.session.SessionManagementFilter@3b6098fd, org.springframework.security.web.access.ExceptionTranslationFilter@1a4340f2]
+[2021-02-13 01:23:49 WAT] WARN [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2021-02-13 01:23:49 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2021-02-13 01:23:52 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-02-13 01:24:06 WAT] WARN [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.core.CoreAutoConfiguration : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+[2021-02-13 01:24:08 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-02-13 01:24:09 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.endpoint.EventDrivenConsumer : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2021-02-13 01:24:09 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.channel.PublishSubscribeChannel : Channel 'bookstore-payment-service-1.errorChannel' has 1 subscriber(s).
+[2021-02-13 01:24:09 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.integration.endpoint.EventDrivenConsumer : started _org.springframework.integration.errorLogger
+[2021-02-13 01:24:09 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+[2021-02-13 01:24:09 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2021-02-13 01:24:09 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+[2021-02-13 01:24:10 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstorepaymentservice.BookstorePaymentAddressServiceImplApplicationTests : Started BookstorePaymentAddressServiceImplApplicationTests in 62.487 seconds (JVM running for 64.803)
+[2021-02-13 01:24:10 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+[2021-02-13 01:24:10 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Unregistering application BOOKSTORE-PAYMENT-SERVICE with eureka with status DOWN
+[2021-02-13 01:24:10 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.integration.endpoint.EventDrivenConsumer : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2021-02-13 01:24:10 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.integration.channel.PublishSubscribeChannel : Channel 'bookstore-payment-service-1.errorChannel' has 0 subscriber(s).
+[2021-02-13 01:24:10 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.integration.endpoint.EventDrivenConsumer : stopped _org.springframework.integration.errorLogger
+[2021-02-13 01:24:10 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-02-13 01:24:11 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-02-13 01:24:11 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-02-13 01:24:11 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+[2021-02-13 01:24:11 WAT] INFO [Service Name -> bookstore-payment-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-5> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
